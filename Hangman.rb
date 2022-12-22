@@ -19,7 +19,7 @@ def get_letter
   }
 end
 
-dictionary = %w[lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum].uniq
+dictionary = %w[cat dog mouse mice rabbit sky hero man woman love relation internet lunch meal spray pen phone head game look simple energy].uniq
 
 secret_word = dictionary.sample
 nonsecret_litters = ''
